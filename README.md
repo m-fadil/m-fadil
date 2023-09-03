@@ -1,6 +1,6 @@
 ###
 
-<h2 style="font-weight: bold; @media (max-width: 640px) { font-weight: normal; }" align="center">Hello👋!, I'am Mukhammad Fadhila Ikhsani</h2>
+<h2 align="center">Hello👋!, I'am Mukhammad Fadhila Ikhsani</h2>
 <h3 align="center">A passionate fullstack developer from Indonesia</h3>
 
 ###
@@ -30,10 +30,10 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=m-fadil.m-fadil&"  />
 </div>
 
-<div style="display: flex; width: 100%">
-  <div style="display: flex; flex-direction: column; width: 100%">
-    <div class="img1-sm" style="display: flex; margin-bottom: 20px; justify-content: center;">
-      <img style="width: 360px;" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47t953d12sbzxaz17mkhi2qta253rqa4u7n4alndxm&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
+<div>
+  <div>
+    <div align="center">
+      <img height="240" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47t953d12sbzxaz17mkhi2qta253rqa4u7n4alndxm&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
     </div>
     <div>
       <h3 align="left">About me:</h3>
@@ -92,7 +92,7 @@
 
 <br clear="both">
 
-<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+<div  align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=m-fadil&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://streak-stats.demolab.com?user=m-fadil&locale=en&mode=weekly&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=m-fadil&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
