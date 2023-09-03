@@ -37,7 +37,7 @@
     </div>
     <div>
       <h3 align="left">About me:</h3>
-      <p align="left">🔭 I’m currently studying on Brawijaya Univeristy Mlaang
+      <p align="left">🔭 I’m currently studying on Brawijaya Univeristy Malang
       <br>
       🌱 I’m currently learning Tailwind, Alpine.js, Livewire, Laravel, and React.js
       </p>
