@@ -1,6 +1,9 @@
+###
+
 <h2 align="center">Hello👋!, I'am Mukhammad Fadhila Ikhsani</h2>
-<br clear="both">
 <h3 align="center">A passionate fullstack developer from Indonesia</h3>
+
+###
 
 
 <div align="center">
@@ -21,61 +24,73 @@
   </a>
 </div>
 
-
+###
 
 <div align="left">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=m-fadil.m-fadil&"  />
 </div>
 
-
-<img align="right" height="150" style="margin-left: 20px;" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47t953d12sbzxaz17mkhi2qta253rqa4u7n4alndxm&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
-
-<p align="left">🔭 I’m currently studying on Brawijaya Univeristy Mlaang<br>🌱 I’m currently learning Tailwind, Alpine.js, Livewire, Laravel, and React.js</p>
-
-
-
-<div align="left">
-  <h3>Languages and Tools:</h3>
-  <img src="https://skillicons.dev/icons?i=js" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=html" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=css" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=cs" height="30" alt="csharp logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=cpp" height="30" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=tailwind" height="30" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=laravel" height="30" alt="laravel logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=alpinejs" height="30" alt="alpinelinux logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mysql" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=bootstrap" height="30" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nodejs" height="30" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=express" height="30" alt="express logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=vscode" height="30" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=git" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=figma" height="30" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ai" height="30" alt="adobeillustrator logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=arduino" height="30" alt="arduino logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=php" height="30" alt="php logo"  />
+<div style="display: flex">
+  <div style="display: flex; flex-direction: column;">
+    <div class="img1-sm" style="margin-bottom: 20px; align-self: center;">
+      <img style="width: 240px;" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47t953d12sbzxaz17mkhi2qta253rqa4u7n4alndxm&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
+    </div>
+    <div>
+      <p align="left">🔭 I’m currently studying on Brawijaya Univeristy Mlaang
+      <br>
+      🌱 I’m currently learning Tailwind, Alpine.js, Livewire, Laravel, and React.js
+      </p>
+    </div>
+    <div>
+      <h3 align="left">Languages and Tools:</h3>
+      <div align="left">
+        <img src="https://skillicons.dev/icons?i=js" height="30" alt="javascript logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=html" height="30" alt="html5 logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=css" height="30" alt="css3 logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=py" height="30" alt="python logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=cs" height="30" alt="csharp logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=cpp" height="30" alt="cplusplus logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=tailwind" height="30" alt="tailwindcss logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=laravel" height="30" alt="laravel logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=alpinejs" height="30" alt="alpinelinux logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=mysql" height="30" alt="mysql logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=bootstrap" height="30" alt="bootstrap logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=nodejs" height="30" alt="nodejs logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=express" height="30" alt="express logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=vscode" height="30" alt="vscode logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=git" height="30" alt="git logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=figma" height="30" alt="figma logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=ai" height="30" alt="adobeillustrator logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=arduino" height="30" alt="arduino logo"  />
+        <img width="12" />
+        <img src="https://skillicons.dev/icons?i=php" height="30" alt="php logo"  />
+      </div>
+    </div>
+  </div>
+  <div class="img1" style="flex: 0 0 240px; margin-left: 20px;">
+    <img src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47t953d12sbzxaz17mkhi2qta253rqa4u7n4alndxm&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
+  </div>
 </div>
 
 
+###
 
 <br clear="both">
 
@@ -84,3 +99,33 @@
   <img src="https://streak-stats.demolab.com?user=m-fadil&locale=en&mode=weekly&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=m-fadil&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
+
+###
+
+<style>
+  h2 {
+    font-weight: bold
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img1-sm {
+    display: block;
+  }
+
+  @media (min-width: 640px) {
+    h2 {
+      font-weight: normal 
+    }
+
+    .img1 {
+      display: block;
+    }
+
+    .img1-sm {
+      display: none;
+    }
+  }
+</style>
