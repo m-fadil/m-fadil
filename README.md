@@ -1,9 +1,7 @@
 <h2 align="center">Hello👋!, I'am Mukhammad Fadhila Ikhsani</h2>
+<br clear="both">
 <h3 align="center">A passionate fullstack developer from Indonesia</h3>
 
-###
-
-<br clear="both">
 
 <div align="center">
   <a href="https://www.instagram.com/fadhila_ikhsani/" target="_blank">
@@ -23,24 +21,21 @@
   </a>
 </div>
 
-###
+
 
 <div align="left">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=m-fadil.m-fadil&"  />
 </div>
 
-###
 
-<img align="right" height="150" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47t953d12sbzxaz17mkhi2qta253rqa4u7n4alndxm&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
-
-###
+<img align="right" height="150" style="margin-left: 20px;" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47t953d12sbzxaz17mkhi2qta253rqa4u7n4alndxm&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
 
 <p align="left">🔭 I’m currently studying on Brawijaya Univeristy Mlaang<br>🌱 I’m currently learning Tailwind, Alpine.js, Livewire, Laravel, and React.js</p>
 
-###
 
-<h3 align="left">Languages and Tools:</h3>
+
 <div align="left">
+  <h3>Languages and Tools:</h3>
   <img src="https://skillicons.dev/icons?i=js" height="30" alt="javascript logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=html" height="30" alt="html5 logo"  />
@@ -80,7 +75,7 @@
   <img src="https://skillicons.dev/icons?i=php" height="30" alt="php logo"  />
 </div>
 
-###
+
 
 <br clear="both">
 
@@ -89,11 +84,3 @@
   <img src="https://streak-stats.demolab.com?user=m-fadil&locale=en&mode=weekly&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=m-fadil&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
-
-###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/m-fadil/m-fadil/output/snake.svg" alt="Snake animation" />
-
-###
