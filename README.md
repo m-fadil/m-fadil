@@ -1,6 +1,6 @@
 ###
 
-<h2 align="center">Hello👋!, I'am Mukhammad Fadhila Ikhsani</h2>
+<h2 style="font-weight: bold; @media (max-width: 640px) { font-weight: normal; }" align="center">Hello👋!, I'am Mukhammad Fadhila Ikhsani</h2>
 <h3 align="center">A passionate fullstack developer from Indonesia</h3>
 
 ###
@@ -30,12 +30,13 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=m-fadil.m-fadil&"  />
 </div>
 
-<div style="display: flex">
-  <div style="display: flex; flex-direction: column;">
-    <div class="img1-sm" style="margin-bottom: 20px; align-self: center;">
-      <img style="width: 240px;" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47t953d12sbzxaz17mkhi2qta253rqa4u7n4alndxm&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
+<div style="display: flex; width: 100%">
+  <div style="display: flex; flex-direction: column; width: 100%">
+    <div class="img1-sm" style="display: flex; margin-bottom: 20px; justify-content: center;">
+      <img style="width: 360px;" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47t953d12sbzxaz17mkhi2qta253rqa4u7n4alndxm&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
     </div>
     <div>
+      <h3 align="left">About me:</h3>
       <p align="left">🔭 I’m currently studying on Brawijaya Univeristy Mlaang
       <br>
       🌱 I’m currently learning Tailwind, Alpine.js, Livewire, Laravel, and React.js
@@ -84,9 +85,6 @@
       </div>
     </div>
   </div>
-  <div class="img1" style="flex: 0 0 240px; margin-left: 20px;">
-    <img src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47t953d12sbzxaz17mkhi2qta253rqa4u7n4alndxm&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
-  </div>
 </div>
 
 
@@ -94,38 +92,8 @@
 
 <br clear="both">
 
-<div align="center">
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
   <img src="https://github-readme-stats.vercel.app/api?username=m-fadil&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://streak-stats.demolab.com?user=m-fadil&locale=en&mode=weekly&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=m-fadil&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
-
-###
-
-<style>
-  h2 {
-    font-weight: bold
-  }
-
-  .img1 {
-    display: none;
-  }
-
-  .img1-sm {
-    display: block;
-  }
-
-  @media (min-width: 640px) {
-    h2 {
-      font-weight: normal 
-    }
-
-    .img1 {
-      display: block;
-    }
-
-    .img1-sm {
-      display: none;
-    }
-  }
-</style>
