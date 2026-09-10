@@ -1,0 +1,75 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # tiap Minggu 00:00 UTC (07:00 WIB)
+  workflow_dispatch:
+  # sengaja tanpa trigger `push`: tiap push akan memicu render dan menambah
+  # 4 commit "Update metrics/*.svg". Render manual pakai workflow_dispatch.
+
+# Kartu dipecah per file supaya bisa disusun dalam tabel di README.
+#
+# Plugin yang TIDAK dipakai karena rusak permanen di upstream (metrics v3.34,
+# commit terakhir Des 2023), bukan karena salah config:
+#   - habits, activity : GitHub menghapus `commits` dari payload PushEvent.
+#                        habits/index.mjs:50 dan activity/index.mjs:140 crash.
+#   - achievements     : query Projects (classic) yang sudah di-sunset GitHub.
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # pin ke commit SHA: tag pun mutable, dan job ini punya contents:write
+      - name: Base
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: m-fadil
+          filename: metrics/base.svg
+          template: classic
+          base: header, repositories, metadata
+          config_timezone: Asia/Jakarta
+
+      - name: Calendar
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: m-fadil
+          filename: metrics/calendar.svg
+          base: ""
+          config_timezone: Asia/Jakarta
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Languages
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: m-fadil
+          filename: metrics/languages.svg
+          base: ""
+          config_timezone: Asia/Jakarta
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+
+      - name: Notable & lines
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: m-fadil
+          filename: metrics/notable.svg
+          base: ""
+          config_timezone: Asia/Jakarta
+          # notable_from default `organization` — pakai `all` biar kontribusi
+          # ke repo milik user lain ikut kelihatan
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_repositories: yes
+          plugin_lines: yes
